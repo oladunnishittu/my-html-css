@@ -1,0 +1,132 @@
+body{
+    font:15px/1.5 Arial;
+    font-weight: normal;
+}
+header{
+    min-height: 70px;
+    background-color: #ffffff;
+    padding:0 30px;
+    border:2px hsl(0, 0%, 100%) solid; 
+    width:100%; 
+    box-sizing: border-box;
+    display:flex;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+header #branding{
+    float:left;
+    
+}
+
+header a{
+    text-decoration:none;
+    color:black;
+}
+header ul{
+    margin: 0px;
+    padding: 0px;
+}
+header li{
+    float:left;
+    padding:0 20px 0 20px;
+    display:inline;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+
+header a:hover{
+    color:#f4f4f4f4;
+    font:bold;
+}
+
+.Motto{
+    background:url(img/OIP.jpg) no-repeat 0 ;
+    min-width: 400px;
+    background-size:100% 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.Learn{
+    background-color:#be0568f0;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:0;
+    height:38px;
+    border-radius: 3px;
+}
+
+.services{
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Use flexbox to arrange child elements */
+    flex-wrap: wrap; /* Allow elements to wrap to the next line if necessary */
+    justify-content: space-between;
+
+}
+
+.container .box{
+    text-align: center;
+    width:30%;
+    padding:15px;
+    border:1px solid #f4f4f4f4;
+    box-sizing: border-box;
+
+}
+
+.button{
+    background-color: #f4f4f4f4;
+    padding:20px;
+}
+
+
+.portfolio{
+    border: 2px solid rgb(240, 63, 93);
+    border-radius: 3px;
+    color:rgb(240, 63, 93);
+}
+
+
+
+.portfolio a{
+    text-decoration: none;
+}
+.portfolio a:hover{
+    color: #7f1818f4;
+}
+.portfolio a::after{
+    content:'>>'
+}
+
+
+.bottom{
+    text-align: center;
+    background-color: burlywood;
+    padding: 15px 15px 15px;
+}
+.contact{
+    background-color:#AF1769;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:0;
+    height:38px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+
