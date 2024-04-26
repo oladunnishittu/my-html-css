@@ -1,0 +1,19 @@
+body{
+    background:url(background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.overlay{
+    position: absolute;
+    width:900px;
+    height: 400px;
+    display: flex;
+    background-color:purple ;
+}
+
+
+
