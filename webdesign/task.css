@@ -18,7 +18,7 @@ header{
     overflow: hidden;
 }
 header #branding{
-    
+    float:left;
     
 }
 
