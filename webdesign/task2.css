@@ -1,5 +1,5 @@
 header{
-    color: #f4f4f4;
+    color: #dbdadac6;
     display: flex;
     justify-content: flex-end;
     padding:20px;
@@ -18,7 +18,7 @@ header li{
 header a{
     text-decoration: none;
     padding:8px;
-    color:#f4f4f4
+    color:#f4f4f4d3;
 }
 header nav{
     float:right;
@@ -26,6 +26,8 @@ header nav{
 }
 
 header #branding{
+    margin-top:25px;
+    font-size: 15px;
     margin-right: auto;
 }
 
@@ -52,35 +54,37 @@ body{
     box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
     border-radius: 2px;
     border-top: 2px solid rgba(23, 22, 22, .1);
-    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .4);
     backdrop-filter: blur(8px);
 }
 
 #text{
-    margin-left:40%;
-    margin-top: 60px;
+  text-align: right;
+  padding:40px;
+  color:white;
 }
 
-#endtext{
-    text-align:right;
-    color: white;
-    
-}
+
 h3{
     font-size:30px;
 }
 
 p{
     color: whitesmoke;
-    /* filter: blur(2px); */
+    filter: blur(2px); 
+    font-size: 16px;
 }
 
 
-.click{
+
+ .click{
     border:2px solid white;
-    border-radius: 3px;
+    border-radius: 6px;
     color:whitesmoke;
     text-decoration: none;
     float:right;
+    padding: 3px 13px;
+    font-size: 13px;
+    filter: blur(1px);
 
-}
+} 
